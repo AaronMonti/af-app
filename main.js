@@ -40,9 +40,17 @@ const limpiarForm = document.querySelector('.limpiar');
 
 let monto2;
 let monto1;
+let monto3;
+let monto4;
+let monto5;
+let monto6;
+let monto7;
+let monto8;
+let monto9;
+let monto10;
 let valorDolar
 
-
+/* GUARDAR TODOS LOS ELEMENTOS EN UNA VARIABLE CON QUERYSELECTORALL LUEGO RECORRER CON UN FOR EACH Y OBTENER LOS VALORES INGRESANDO CON EL INDICE */
 
 formulario.addEventListener('submit', e => {
     e.preventDefault();
@@ -104,7 +112,7 @@ formulario.addEventListener('submit', e => {
         valorDolar = parseFloat(dolar.value)
     }
 
-    const suma = monto1 + monto2
+    const suma = monto1 + monto2 + monto3 + monto4 + monto5 + monto6 + monto7 + monto8 + monto9 + monto10
     const conversion = parseFloat((suma / valorDolar).toFixed(2))
     console.log(suma)
 
