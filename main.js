@@ -68,42 +68,42 @@ formulario.addEventListener('submit', e => {
 
     if(inputMonto3.value){
         console.log(parseFloat(inputMonto3.value))
-        monto2 = parseFloat(inputMonto3.value)
+        monto3 = parseFloat(inputMonto3.value)
     }
 
     if(inputMonto4.value){
         console.log(parseFloat(inputMonto4.value))
-        monto2 = parseFloat(inputMonto4.value)
+        monto4 = parseFloat(inputMonto4.value)
     }
 
     if(inputMonto5.value){
         console.log(parseFloat(inputMonto5.value))
-        monto2 = parseFloat(inputMonto5.value)
+        monto5 = parseFloat(inputMonto5.value)
     }
 
     if(inputMonto6.value){
         console.log(parseFloat(inputMonto6.value))
-        monto2 = parseFloat(inputMonto6.value)
+        monto6 = parseFloat(inputMonto6.value)
     }
 
     if(inputMonto7.value){
         console.log(parseFloat(inputMonto7.value))
-        monto2 = parseFloat(inputMonto7.value)
+        monto7 = parseFloat(inputMonto7.value)
     }
 
     if(inputMonto8.value){
         console.log(parseFloat(inputMonto8.value))
-        monto2 = parseFloat(inputMonto8.value)
+        monto8 = parseFloat(inputMonto8.value)
     }
 
     if(inputMonto9.value){
         console.log(parseFloat(inputMonto9.value))
-        monto2 = parseFloat(inputMonto9.value)
+        monto9 = parseFloat(inputMonto9.value)
     }
 
     if(inputMonto10.value){
         console.log(parseFloat(inputMonto10.value))
-        monto2 = parseFloat(inputMonto10.value)
+        monto10 = parseFloat(inputMonto10.value)
     }
 
 
