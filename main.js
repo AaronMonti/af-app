@@ -46,7 +46,7 @@ formulario.addEventListener('submit', e => {
         valorDolar = parseFloat(dolar.value)
     }
 
-    const conversion = parseFloat((monto / valorDolar).toFixed(2))
+    const conversion = parseFloat((monto * valorDolar).toFixed(2))
 
     total.innerHTML += " " + monto
 
@@ -58,8 +58,8 @@ limpiarForm.addEventListener('submit', e => {
 
     monto = 0;
 
-    total.innerHTML = "Total:";
-    totaldolares.innerHTML = "Total en $US:";
+    total.innerHTML = "Total en $US:";
+    totaldolares.innerHTML = "Total en pesos:";
 
 })
 
