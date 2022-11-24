@@ -104,7 +104,7 @@ Commercial
 # Tabla de contenidos
 - [Area de Clientes](#area-de-clientes)
   - [Instalacion](#instalacion)
-  - [Ejecucion Local](#ejecuta-de-forma-local)
+  - [Ejecucion local](#ejecucion-local)
   - [Variables de Entorno](#variables-de-entorno)
   - [Preguntas](#preguntas)
   - [Capturas](#capturas)
